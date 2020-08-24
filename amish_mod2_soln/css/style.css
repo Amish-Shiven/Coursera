@@ -65,16 +65,19 @@ div h3{
 
   #n1{
     margin-right: 15px;
+    height: 250px;
   }
 
   #n2{
     margin-left: 15px;
     margin-right: 15px;
+    height: 250px;
   }
   
   #n3{
     margin-left: 15px;
     margin-right: 5px;
+    height: 250px;
   }
 }
 

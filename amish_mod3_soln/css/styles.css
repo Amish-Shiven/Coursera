@@ -1,0 +1,127 @@
+body{
+	font-size: 16px;
+	background-color: #999;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*HEADER NAV*/
+#header-nav{
+	background-color: #666;
+	border-radius: 0;
+	border: 0;
+}
+
+.container{
+	padding-left: 0;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+.navbar-header{
+	height: 100px;
+}
+
+.navbar-brand h1{
+	color: #fff;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000000;
+  background-color: #867979;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #fff;
+}
+#nav-list a:hover {
+  background: #fff;
+}
+#nav-list a span {
+  font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggle:focus{
+	background-color: #666;
+}
+
+.navbar-header .icon-bar{
+	border: 1px solid #000;
+}
+
+.navbar-header button.navbar-toggle{
+	margin-top: -10px;
+	clear: both;
+}
+
+/*End of Header*/
+
+/*Main Content*/
+.container-fluid h2{
+	margin-bottom: 30px;
+}
+.row{
+	background-color: #e0e0d1;
+	color: #000;
+	border: 1px solid #fff;
+	margin: 15px;
+	margin-bottom: 25px;
+	padding: 5px;
+}
+
+.row h3{
+	margin-top: 10px;
+}
+
+.row p{
+	margin-top: 20px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 		
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+}
+
+
+@media (max-width: 315px) {
+ 
+.navbar-brand h1{
+	font-size: 25px;
+}
+
+.navbar-header button.navbar-toggle{
+	margin-top: -20px;
+	clear: both;
+}
+
+}
